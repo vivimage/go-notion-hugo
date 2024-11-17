@@ -47,10 +47,10 @@ jobs:
         uses: actions/setup-go@v3
         with:
           go-version: '1.22.2'
-      - name: Install hugo-nation
+      - name: Install hugo-notion
         run: go install github.com/nisanthchunduru/hugo-notion@latest
       - name: Sync blog content from Notion
-        run: hugo-notion https://vivimagery.notion.site/Notion-DoIt-d94d57cbdf0d47688bb6500baf880722
+        run: hugo-notion https://www.notion.so/vivimagery/Notion-DoIt-d94d57cbdf0d47688bb6500baf880722
         
       - name: Install Hugo CLI
         run: |
