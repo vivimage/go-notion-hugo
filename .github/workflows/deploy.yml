@@ -50,7 +50,7 @@ jobs:
       - name: Install hugo-notion
         run: go install github.com/nisanthchunduru/hugo-notion@latest
       - name: Sync blog content from Notion
-        run: hugo-notion https://www.notion.so/vivimagery/Blog-14126041f9178067b177f1a371126dc2
+        run: hugo-notion https://www.notion.so/vivimagery/blog_content-14126041f91780aa89fdfee7a6fbf98e
         
       - name: Install Hugo CLI
         run: |
